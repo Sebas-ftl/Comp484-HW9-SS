@@ -101,23 +101,20 @@ document.getElementById("mathOutput").innerHTML = mathresult;
 // Part 4: Conditionals
 // ==========================
 
-// TODO:
-// 1. Write at least TWO if/else statements
-//
+//false conditional
 if (a > c) {
-    
-} else {
+    document.getElementById("mathOutput").innerHTML += "<br>" + "Conditional Check, a > c = TRUE";
 
+} else {
+    document.getElementById("mathOutput").innerHTML += "<br><br>" + "Conditional Check, a > c = FALSE";
 }
+
+//true conditional
 if (Number.isInteger(num1a)) {
-
+    document.getElementById("mathOutput").innerHTML += "<br>" + "Conditional Check, "+ num1a +" is integer? = TRUE";
 } else {
-    
+    document.getElementById("mathOutput").innerHTML += "<br>" + "Conditional Check, "+ num1a +" is integer? = FALSE";
 }
-// Ideas:
-// - check if a value is NaN
-// - check if a number is an integer
-// - check if a result is greater than a certain value
-//
+
 // 2. Display a message on the page based on the condition
 //    (append it to an existing section or create a new message)
