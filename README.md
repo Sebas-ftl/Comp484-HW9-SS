@@ -1,6 +1,7 @@
 # Comp484-HW9-SS
 
 Built-in objects and Methods used
+
     - date()
         - getMonth()
         - getDate()
